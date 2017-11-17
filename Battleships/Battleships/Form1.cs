@@ -21,5 +21,10 @@ namespace Battleships
         {
             MessageBox.Show("");
         }
+
+        int joeytest()
+        {
+            return 0;
+        }
     }
 }
