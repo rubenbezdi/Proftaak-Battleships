@@ -16,5 +16,10 @@ namespace Battleships
         {
             InitializeComponent();
         }
+
+        void hi()
+        {
+            MessageBox.Show("");
+        }
     }
 }
