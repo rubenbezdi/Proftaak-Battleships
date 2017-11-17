@@ -12,6 +12,7 @@ namespace Battleships
 {
     public partial class Form1 : Form
     {
+        Gameform game = new Gameform();
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +32,11 @@ namespace Battleships
             {
                 g.DrawEllipse(new Pen(Brushes.Black), 400, 400, 100, 100);
             }
+        }
+
+        private void btnOpenGameForm_Click(object sender, EventArgs e)
+        {
+            game.Show();
         }
     }
 }
