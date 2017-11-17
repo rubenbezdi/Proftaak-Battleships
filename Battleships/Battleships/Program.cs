@@ -19,4 +19,5 @@ namespace Battleships
             Application.Run(new Form1());
         }
     }
+
 }

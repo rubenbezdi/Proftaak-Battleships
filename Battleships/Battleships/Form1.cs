@@ -21,5 +21,16 @@ namespace Battleships
         {
             MessageBox.Show("");
         }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics g = e.Graphics;
+
+            g.DrawLine(new Pen(Brushes.Black), 400, 0, 400, 400);
+            //if(kaart[3,4].Schip)
+            {
+                g.DrawEllipse(new Pen(Brushes.Black), 400, 400, 100, 100);
+            }
+        }
     }
 }
